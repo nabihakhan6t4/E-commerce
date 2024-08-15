@@ -1,0 +1,48 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.hero-section {
+    height: 60vh;
+    background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.hero-section p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.products .card {
+    border: none;
+    transition: transform 0.2s;
+}
+
+.products .card:hover {
+    transform: scale(1.05);
+}
+
+.products .card-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    color: #6c757d;
+}
