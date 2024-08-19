@@ -7,25 +7,25 @@ var makeupProducts = {
       price: "$10",
     },
     London: {
-      img: "foundation-beige.jfif",
+      img: "images/foundation.jpg",
       productName: "Foundation",
       shade: "Beige",
       price: "$15",
     },
     Paris: {
-      img: "mascara-black.jfif",
+      img: "images/mascara.jpg",
       productName: "Mascara",
       shade: "Black",
       price: "$12",
     },
     Tokyo: {
-      img: "eyeshadow-gold.jfif",
+      img: "images/eyeshadow.jpg",
       productName: "Eyeshadow",
       shade: "Gold",
       price: "$20",
     },
     Sydney: {
-      img: "blush-pink.jfif",
+      img: "images/blush.jpg",
       productName: "Blush",
       shade: "Pink",
       price: "$18",
@@ -33,31 +33,31 @@ var makeupProducts = {
   },
   LOreal: {
     Paris: {
-      img: "lipstick-nude.jfif",
+      img: "images/loreal-paris-lipstick.jpg",
       productName: "Lipstick",
       shade: "Nude",
       price: "$12",
     },
     NewYork: {
-      img: "foundation-medium.jfif",
+      img: "images/lorel-newyork-foundation.jpg",
       productName: "Foundation",
       shade: "Medium",
       price: "$18",
     },
     Tokyo: {
-      img: "mascara-brown.jfif",
+      img: "images/loreal-tokyo-mascara.jpg",
       productName: "Mascara",
       shade: "Brown",
       price: "$14",
     },
     Sydney: {
-      img: "eyeshadow-silver.jfif",
+      img: "images/loreal-sydney-eyeshadow.jpg",
       productName: "Eyeshadow",
       shade: "Silver",
       price: "$22",
     },
     London: {
-      img: "blush-peach.jfif",
+      img: "images/loreal-london-blush.jpg",
       productName: "Blush",
       shade: "Peach",
       price: "$16",
@@ -65,31 +65,31 @@ var makeupProducts = {
   },
   Revlon: {
     NewYork: {
-      img: "lipgloss-clear.jfif",
+      img: "images/revlon-newyork-lipgloss.jpg",
       productName: "Lipgloss",
       shade: "Clear",
       price: "$8",
     },
     Paris: {
-      img: "foundation-dark.jfif",
+      img: "images/revlon-paris-foundation.jpg",
       productName: "Foundation",
       shade: "Dark",
       price: "$20",
     },
     Tokyo: {
-      img: "mascara-volumizing.jfif",
+      img: "images/revlon-tokyo-mascara.jpg",
       productName: "Mascara",
       shade: "Volumizing",
       price: "$17",
     },
     London: {
-      img: "eyeshadow-bronze.jfif",
+      img: "images/revlon-london-eyeshadow.jpg",
       productName: "Eyeshadow",
       shade: "Bronze",
       price: "$19",
     },
     Sydney: {
-      img: "blush-coral.jfif",
+      img: "images/revlon-sydney-blush.jpg",
       productName: "Blush",
       shade: "Coral",
       price: "$15",
@@ -97,31 +97,31 @@ var makeupProducts = {
   },
   MAC: {
     Toronto: {
-      img: "lipstick-matte.jfif",
+      img: "images/MAC-toronto-lipstick.jpg",
       productName: "Lipstick",
       shade: "Matte",
       price: "$25",
     },
     Paris: {
-      img: "foundation-light.jfif",
+      img: "images/MAC-paris-foundation.jpg",
       productName: "Foundation",
       shade: "Light",
       price: "$30",
     },
     NewYork: {
-      img: "mascara-waterproof.jfif",
+      img: "images/MAC-newyork-mascara.jpg",
       productName: "Mascara",
       shade: "Waterproof",
       price: "$22",
     },
     Tokyo: {
-      img: "eyeshadow-plum.jfif",
+      img: "images/MAC-tokyo-eyeshadow.jpg",
       productName: "Eyeshadow",
       shade: "Plum",
       price: "$28",
     },
     Sydney: {
-      img: "blush-rose.jfif",
+      img: "images/MAC-sydney-blush.jpg",
       productName: "Blush",
       shade: "Rose",
       price: "$23",
@@ -129,31 +129,31 @@ var makeupProducts = {
   },
   NARS: {
     Tokyo: {
-      img: "lipstick-mauve.jfif",
+      img: "images/NARS-tokyo-lipstick.jpg",
       productName: "Lipstick",
       shade: "Mauve",
       price: "$24",
     },
     Paris: {
-      img: "foundation-medium-dark.jfif",
+      img: "images/NARS-paris-foundation.jpg",
       productName: "Foundation",
       shade: "Medium Dark",
       price: "$27",
     },
     London: {
-      img: "mascara-lengthening.jfif",
+      img: "images/NARS-london-mascara.jpg",
       productName: "Mascara",
       shade: "Lengthening",
       price: "$19",
     },
     NewYork: {
-      img: "eyeshadow-copper.jfif",
+      img: "images/NARS-eyeshadow-eyeshadow.jpg",
       productName: "Eyeshadow",
       shade: "Copper",
       price: "$26",
     },
     Sydney: {
-      img: "blush-berry.jfif",
+      img: "images/NARS-syney-blush.jpeg",
       productName: "Blush",
       shade: "Berry",
       price: "$22",
@@ -161,31 +161,31 @@ var makeupProducts = {
   },
   UrbanDecay: {
     NewYork: {
-      img: "lipstick-berry.jfif",
+      img: "images/urbanDecay-newyork-lipstick.jpg",
       productName: "Lipstick",
       shade: "Berry",
       price: "$21",
     },
     Paris: {
-      img: "foundation-full-coverage.jfif",
+      img: "images/UrbanDecay-paris-foundation.jpg",
       productName: "Foundation",
       shade: "Full Coverage",
       price: "$29",
     },
     Tokyo: {
-      img: "mascara-volumizing.jfif",
+      img: "images/UrbanDecay-tokyo-mascara.jpg",
       productName: "Mascara",
       shade: "Volumizing",
       price: "$23",
     },
     London: {
-      img: "eyeshadow-emerald.jfif",
+      img: "images/UrbanDecay-london-eyeshadow.jpg",
       productName: "Eyeshadow",
       shade: "Emerald",
       price: "$27",
     },
     Sydney: {
-      img: "blush-mauve.jfif",
+      img: "images/UrbanDecay of Sydney of blush.jpeg",
       productName: "Blush",
       shade: "Mauve",
       price: "$20",
@@ -193,31 +193,31 @@ var makeupProducts = {
   },
   Benefit: {
     NewYork: {
-      img: "lipstick-pink.jfif",
+      img: "images/Benefit-newyork-lipstick.jpg",
       productName: "Lipstick",
       shade: "Pink",
       price: "$18",
     },
     Paris: {
-      img: "foundation-ivory.jfif",
+      img: "images/benefit-paris-foundation.jpeg",
       productName: "Foundation",
       shade: "Ivory",
       price: "$22",
     },
     Tokyo: {
-      img: "mascara-dark-brown.jfif",
+      img: "images/benefit-tokyo-mascara.jpg",
       productName: "Mascara",
       shade: "Dark Brown",
       price: "$16",
     },
     London: {
-      img: "eyeshadow-gold.jfif",
+      img: "images/benefit-london-eyeshadow.jpg",
       productName: "Eyeshadow",
       shade: "Gold",
       price: "$24",
     },
     Sydney: {
-      img: "blush-bubblegum.jfif",
+      img: "images/benefit-Sydney-blush.jpeg",
       productName: "Blush",
       shade: "Bubblegum",
       price: "$18",
@@ -225,31 +225,31 @@ var makeupProducts = {
   },
   TooFaced: {
     NewYork: {
-      img: "lipstick-caramel.jfif",
+      img: "images/TooFaced-NewYork-lipstick-caramel.jpg",
       productName: "Lipstick",
       shade: "Caramel",
       price: "$19",
     },
     Paris: {
-      img: "foundation-tan.jfif",
+      img: "images/TooFaced-Paris-foundation-tan.jpg",
       productName: "Foundation",
       shade: "Tan",
       price: "$25",
     },
     Tokyo: {
-      img: "mascara-blackest-black.jfif",
+      img: "images/TooFaced-Tokyo-mascara-blackest-black.jpeg",
       productName: "Mascara",
       shade: "Blackest Black",
       price: "$21",
     },
     London: {
-      img: "eyeshadow-platinum.jfif",
+      img: "images/TooFaced-London-eyeshadow-platinum.jpg",
       productName: "Eyeshadow",
       shade: "Platinum",
       price: "$28",
     },
     Sydney: {
-      img: "blush-papaya.jfif",
+      img: "images/TooFaced-Sydney-blush-papaya.jpg",
       productName: "Blush",
       shade: "Papaya",
       price: "$22",
@@ -257,31 +257,31 @@ var makeupProducts = {
   },
   Tarte: {
     NewYork: {
-      img: "lipstick-mahogany.jfif",
+      img: "images/Tarte-NewYork-lipstick-mahogany.jpg",
       productName: "Lipstick",
       shade: "Mahogany",
       price: "$22",
     },
     Paris: {
-      img: "foundation-deep.jfif",
+      img: "images/Tarte-Paris-foundation-deep.jpg",
       productName: "Foundation",
       shade: "Deep",
       price: "$28",
     },
     Tokyo: {
-      img: "mascara-jet-black.jfif",
+      img: "images/Tarte-Tokyo-mascara-jet-black.jpeg",
       productName: "Mascara",
       shade: "Jet Black",
       price: "$20",
     },
     London: {
-      img: "eyeshadow-rose-gold.jfif",
+      img: "images/Tarte-London-eyeshadow-rose-gold.jpg",
       productName: "Eyeshadow",
       shade: "Rose Gold",
       price: "$26",
     },
     Sydney: {
-      img: "blush-terracotta.jfif",
+      img: "images/Tarte-Sydney-blush-terracotta.jpg",
       productName: "Blush",
       shade: "Terracotta",
       price: "$24",
@@ -289,31 +289,31 @@ var makeupProducts = {
   },
   Smashbox: {
     NewYork: {
-      img: "lipstick-crimson.jfif",
+      img: "images/Smashbox-NewYork-lipstick-crimson.jpg",
       productName: "Lipstick",
       shade: "Crimson",
       price: "$20",
     },
     Paris: {
-      img: "foundation-neutral.jfif",
+      img: "images/Smashbox-Paris-foundation-neutral.jpeg",
       productName: "Foundation",
       shade: "Neutral",
       price: "$24",
     },
     Tokyo: {
-      img: "mascara-volumizer.jfif",
+      img: "images/Smashbox-Tokyo-mascara-volumizer.jpg",
       productName: "Mascara",
       shade: "Volumizer",
       price: "$22",
     },
     London: {
-      img: "eyeshadow-rose.jfif",
+      img: "images/Smashbox-London-eyeshadow-rose.jpg",
       productName: "Eyeshadow",
       shade: "Rose",
       price: "$25",
     },
     Sydney: {
-      img: "blush-sunset.jfif",
+      img: "images/Smashbox   Sydney blush.jpg",
       productName: "Blush",
       shade: "Sunset",
       price: "$21",
@@ -321,31 +321,31 @@ var makeupProducts = {
   },
   Hourglass: {
     NewYork: {
-      img: "lipstick-rosewood.jfif",
+      img: "images/Hourglass-NewYork-lipstick-rosewood.jpg",
       productName: "Lipstick",
       shade: "Rosewood",
       price: "$26",
     },
     Paris: {
-      img: "foundation-powder.jfif",
+      img: "images/Hourglass -Paris-foundation-powder.jpg",
       productName: "Foundation",
       shade: "Powder",
       price: "$30",
     },
     Tokyo: {
-      img: "mascara-bold.jfif",
+      img: "images/Hourglass  -Tokyo-mascara-bold.jpg",
       productName: "Mascara",
       shade: "Bold",
       price: "$24",
     },
     London: {
-      img: "eyeshadow-ivory.jfif",
+      img: "images/Hourglass-London-eyeshadow-ivory.jpg",
       productName: "Eyeshadow",
       shade: "Ivory",
       price: "$28",
     },
     Sydney: {
-      img: "blush-dusty-rose.jfif",
+      img: "images/Hourglass-Sydney-blush-dusty-rose.jpeg",
       productName: "Blush",
       shade: "Dusty Rose",
       price: "$25",
@@ -353,31 +353,31 @@ var makeupProducts = {
   },
   FentyBeauty: {
     NewYork: {
-      img: "lipstick-uncensored.jfif",
+      img: "images/FentyBeauty-NewYork-lipstick-uncensored.jpg",
       productName: "Lipstick",
       shade: "Uncensored",
       price: "$28",
     },
     Paris: {
-      img: "foundation-150.jfif",
+      img: "images/FentyBeauty-Paris-foundation-150.jpg",
       productName: "Foundation",
       shade: "150",
       price: "$32",
     },
     Tokyo: {
-      img: "mascara-lengthening.jfif",
+      img: "images/FentyBeauty-Tokyo-mascara-lengthening.jpg",
       productName: "Mascara",
       shade: "Lengthening",
       price: "$26",
     },
     London: {
-      img: "eyeshadow-caramel.jfif",
+      img: "images/FentyBeauty-London-eyeshadow-caramel.jpg",
       productName: "Eyeshadow",
       shade: "Caramel",
       price: "$30",
     },
     Sydney: {
-      img: "blush-ginger.jfif",
+      img: "images/FentyBeauty-Sydney-blush-ginger.jpeg",
       productName: "Blush",
       shade: "Ginger",
       price: "$27",
@@ -385,7 +385,7 @@ var makeupProducts = {
   },
   LauraMercier: {
     NewYork: {
-      img: "lipstick-sable.jfif",
+      img: "images/LauraMercier-NewYork-lipstick-sable.jpg",
       productName: "Lipstick",
       shade: "Sable",
       price: "$23",
@@ -479,60 +479,49 @@ var makeupProducts = {
       price: "$24",
     },
   },
-  BiteBeauty: {
-    NewYork: {
-      img: "lipstick-cherry.jfif",
-      productName: "Lipstick",
-      shade: "Cherry",
-      price: "$26",
-    },
-    Paris: {
-      img: "foundation-neutral.jfif",
-      productName: "Foundation",
-      shade: "Neutral",
-      price: "$30",
-    },
-    Tokyo: {
-      img: "mascara-black-jack.jfif",
-      productName: "Mascara",
-      shade: "Black Jack",
-      price: "$25",
-    },
-    London: {
-      img: "eyeshadow-fuchsia.jfif",
-      productName: "Eyeshadow",
-      shade: "Fuchsia",
-      price: "$27",
-    },
-    Sydney: {
-      img: "blush-bloom.jfif",
-      productName: "Blush",
-      shade: "Bloom",
-      price: "$22",
-    },
-  },
 };
 
 var brand = document.querySelector(".brand");
 var country = document.querySelector(".country");
 var cards = document.querySelector(".cards");
 
-brand.innerHTML = ` <option selected>Select Brand</option>`;
-country.innerHTML = ` <option selected>Select Country</option>`;
+brand.innerHTML += ` <option selected> Select Brand</option>`;
+country.innerHTML += ` <option selected> Select Country</option>`;
+
 for (var key in makeupProducts) {
-  console.log(key);
-  cards.innerHTML = `<div class="card" style="width: 18rem;">
-  <img src="images/blush.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>`;
-  brand.innerHTML += `<option value="${key}">${key}</option>`;
+  brand.innerHTML += ` <option value="${key}">${key}</option>`;
+  for (var key1 in makeupProducts[key]) {
+    var obj = makeupProducts[key][key1];
+    cards.innerHTML += `<div class="card text-center g-5 col-12 col-md-6  mt-md-5 mt-sm-0" style="width: 18rem;">
+      <img src="${obj.img}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">${obj.productName}</h5>
+        <p class="card-text">${obj.shade}</p>
+        <a href="#" class="btn btn-primary">${obj.price}</a>
+      </div>
+    </div>`;
+  }
 }
 function setCountry() {
   for (var key1 in makeupProducts[key]) {
     country.innerHTML += `<option value="${key1}">${key1}</option>`;
+  }
+}
+function searchCard() {
+  for (var key in makeupProducts) {
+    
+    for (var key1 in makeupProducts[key]) {
+      console.log(key1);
+      for (var key2 in makeupProducts[key][key1]) {
+        cards.innerHTML += `<div class="card text-center g-5 col-12 col-md-6  mt-md-5 mt-sm-0" style="width: 18rem;">
+        <img src="${key2}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">${key2.productName}</h5>
+          <p class="card-text">${key2.shade}</p>
+          <a href="#" class="btn btn-primary">${obj.price}</a>
+        </div>
+      </div>`;
+      }
+    }
   }
 }
