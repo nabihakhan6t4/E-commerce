@@ -1,511 +1,487 @@
 var makeupProducts = {
   Maybelline: {
-    NewYork: {
-      img: "images/lipstick.jpg",
-      productName: "Lipstick",
-      shade: "Red",
-      price: "$10",
-    },
-    london: {
-      img: "images/foundation.jpg",
-      productName: "Foundation",
-      shade: "Beige",
+    Brazil: {
+      img: "images/Maybelline-Brazil-Highlighter.jpg",
+      productName: "Highlighter",
+      shade: "Champagne",
       price: "$15",
     },
-    Paris: {
-      img: "images/mascara.jpg",
-      productName: "Mascara",
-      shade: "Black",
-      price: "$12",
+    Italy: {
+      img: "images/Maybelline-Italy-Contour.jpg",
+      productName: "Contour",
+      shade: "Deep Bronze",
+      price: "$18",
     },
-    Tokyo: {
-      img: "images/eyeshadow.jpg",
-      productName: "Eyeshadow",
-      shade: "Gold",
+    India: {
+      img: "images/Maybelline-India-Primer.jpg",
+      productName: "Primer",
+      shade: "Matte",
       price: "$20",
     },
-    Sydney: {
-      img: "images/blush.jpg",
-      productName: "Blush",
-      shade: "Pink",
-      price: "$18",
+    Mexico: {
+      img: "images/Maybelline-Mexico-Concealer.jpg",
+      productName: "Concealer",
+      shade: "Light Beige",
+      price: "$17",
+    },
+    Russia: {
+      img: "images/Maybelline-Russia-Setting Spray.jpg",
+      productName: "Setting Spray",
+      shade: "Invisible",
+      price: "$19",
     },
   },
   LOreal: {
-    Paris: {
-      img: "images/loreal-paris-lipstick.jpg",
-      productName: "Lipstick",
-      shade: "Nude",
-      price: "$12",
+    Germany: {
+      img: "images/LOreal-Germany-Brow Penci.jpg",
+      productName: "Brow Pencil",
+      shade: "Dark Brown",
+      price: "$13",
     },
-    NewYork: {
-      img: "images/lorel-newyork-foundation.jpg",
-      productName: "Foundation",
-      shade: "Medium",
-      price: "$18",
+    Spain: {
+      img: "images/LOreal-Germany-Brow Penci.jpgg",
+      productName: "Bronzer",
+      shade: "Sun Kissed",
+      price: "$21",
     },
-    Tokyo: {
-      img: "images/loreal-tokyo-mascara.jpg",
-      productName: "Mascara",
-      shade: "Brown",
+    Canada: {
+      img: "images/LOreal-Canada-Lip Liner.jpg",
+      productName: "Lip Liner",
+      shade: "Mauve",
+      price: "$10",
+    },
+    Japan: {
+      img: "images/LOreal-Japan-Eyeliner.jpg",
+      productName: "Eyeliner",
+      shade: "Jet Black",
       price: "$14",
     },
-    Sydney: {
-      img: "images/loreal-sydney-eyeshadow.jpg",
-      productName: "Eyeshadow",
-      shade: "Silver",
-      price: "$22",
-    },
-    London: {
-      img: "images/loreal-london-blush.jpg",
-      productName: "Blush",
-      shade: "Peach",
-      price: "$16",
+    Australia: {
+      img: "images/LOreal-Australia-Fake Lashes.jpg",
+      productName: "Fake Lashes",
+      shade: "Dramatic",
+      price: "$25",
     },
   },
   Revlon: {
-    NewYork: {
-      img: "images/revlon-newyork-lipgloss.jpg",
-      productName: "Lipgloss",
-      shade: "Clear",
+    SouthAfrica: {
+      img: "images/Revlon-SouthAfrica-Lip Balm.jpg",
+      productName: "Lip Balm",
+      shade: "Peach",
       price: "$8",
     },
-    Paris: {
-      img: "images/revlon-paris-foundation.jpg",
-      productName: "Foundation",
-      shade: "Dark",
+    Turkey: {
+      img: "images/Revlon-Turkey-Color Corrector.jpg",
+      productName: "Color Corrector",
+      shade: "Green",
+      price: "$16",
+    },
+    Egypt: {
+      img: "images/Revlon-Egypt-Loose Powder.jpg",
+      productName: "Loose Powder",
+      shade: "Translucent",
+      price: "$22",
+    },
+    Argentina: {
+      img: "images/Revlon-Argentina-Tinted Moisturizer.jpg",
+      productName: "Tinted Moisturizer",
+      shade: "Natural Glow",
+      price: "$18",
+    },
+    Thailand: {
+      img: "images/Revlon-Thailand-Setting Powder.jpg",
+      productName: "Setting Powder",
+      shade: "Banana",
       price: "$20",
-    },
-    Tokyo: {
-      img: "images/revlon-tokyo-mascara.jpg",
-      productName: "Mascara",
-      shade: "Volumizing",
-      price: "$17",
-    },
-    London: {
-      img: "images/revlon-london-eyeshadow.jpg",
-      productName: "Eyeshadow",
-      shade: "Bronze",
-      price: "$19",
-    },
-    Sydney: {
-      img: "images/revlon-sydney-blush.jpg",
-      productName: "Blush",
-      shade: "Coral",
-      price: "$15",
     },
   },
   MAC: {
-    Toronto: {
-      img: "images/MAC-toronto-lipstick.jpg",
-      productName: "Lipstick",
-      shade: "Matte",
-      price: "$25",
+    Sweden: {
+      img: "images/MAC-Sweden-Lip Stain.jpg",
+      productName: "Lip Stain",
+      shade: "Ruby",
+      price: "$24",
     },
-    Paris: {
-      img: "images/MAC-paris-foundation.jpg",
-      productName: "Foundation",
-      shade: "Light",
-      price: "$30",
-    },
-    NewYork: {
-      img: "images/MAC-newyork-mascara.jpg",
-      productName: "Mascara",
-      shade: "Waterproof",
-      price: "$22",
-    },
-    Tokyo: {
-      img: "images/MAC-tokyo-eyeshadow.jpg",
-      productName: "Eyeshadow",
-      shade: "Plum",
+    Norway: {
+      img: "images/MAC-Norway-Face Primer.jpg",
+      productName: "Face Primer",
+      shade: "Hydrating",
       price: "$28",
     },
-    Sydney: {
-      img: "images/MAC-sydney-blush.jpg",
-      productName: "Blush",
-      shade: "Rose",
-      price: "$23",
+    Denmark: {
+      img: "images/MAC-Denmark-Finishing Powder.jpg",
+      productName: "Finishing Powder",
+      shade: "Sheer",
+      price: "$30",
+    },
+    Belgium: {
+      img: "images/MAC-Belgium-Serum.jpg",
+      productName: "Serum",
+      shade: "Vitamin C",
+      price: "$32",
+    },
+    Netherlands: {
+      img: "images/MAC-Netherlands-Face Mask.jpeg",
+      productName: "Face Mask",
+      shade: "Charcoal",
+      price: "$27",
     },
   },
   NARS: {
-    Tokyo: {
-      img: "images/NARS-tokyo-lipstick.jpg",
-      productName: "Lipstick",
-      shade: "Mauve",
-      price: "$24",
-    },
-    Paris: {
-      img: "images/NARS-paris-foundation.jpg",
-      productName: "Foundation",
-      shade: "Medium Dark",
-      price: "$27",
-    },
-    London: {
-      img: "images/NARS-london-mascara.jpg",
-      productName: "Mascara",
-      shade: "Lengthening",
-      price: "$19",
-    },
-    NewYork: {
-      img: "images/NARS-eyeshadow-eyeshadow.jpg",
-      productName: "Eyeshadow",
-      shade: "Copper",
-      price: "$26",
-    },
-    Sydney: {
-      img: "images/NARS-syney-blush.jpeg",
-      productName: "Blush",
-      shade: "Berry",
+    UAE: {
+      img: "images/NARS-UAE-Tinted Brow Gel.jpg",
+      productName: "Tinted Brow Gel",
+      shade: "Auburn",
       price: "$22",
+    },
+    SaudiArabia: {
+      img: "images/NARS-SaudiArabia-Matte Lip Cream.jpg",
+      productName: "Matte Lip Cream",
+      shade: "Nude",
+      price: "$18",
+    },
+    Iran: {
+      img: "images/NARS-Iran-Face Oil.jpg",
+      productName: "Face Oil",
+      shade: "Argan",
+      price: "$34",
+    },
+    Qatar: {
+      img: "images/NARS-Qatar-Eyebrow Gel.jpg",
+      productName: "Eyebrow Gel",
+      shade: "Ash Brown",
+      price: "$20",
+    },
+    Oman: {
+      img: "images/NARS-Oman-Face Mist.jpg",
+      productName: "Face Mist",
+      shade: "Rose",
+      price: "$26",
     },
   },
   UrbanDecay: {
-    NewYork: {
-      img: "images/urbanDecay-newyork-lipstick.jpg",
-      productName: "Lipstick",
-      shade: "Berry",
-      price: "$21",
+    Pakistan: {
+      img: "images/UrbanDecay-Pakistan-Eye Cream.jpg",
+      productName: "Eye Cream",
+      shade: "Cooling",
+      price: "$35",
     },
-    Paris: {
-      img: "images/UrbanDecay-paris-foundation.jpg",
-      productName: "Foundation",
-      shade: "Full Coverage",
-      price: "$29",
+    Malaysia: {
+      img: "images/UrbanDecay-Malaysia-Lash Serum.jpg",
+      productName: "Lash Serum",
+      shade: "Strengthening",
+      price: "$40",
     },
-    Tokyo: {
-      img: "images/UrbanDecay-tokyo-mascara.jpg",
-      productName: "Mascara",
-      shade: "Volumizing",
-      price: "$23",
+    Indonesia: {
+      img: "images/UrbanDecay-Indonesia-Lip Scrub.jpg",
+      productName: "Lip Scrub",
+      shade: "Sugar",
+      price: "$12",
     },
-    London: {
-      img: "images/UrbanDecay-london-eyeshadow.jpg",
-      productName: "Eyeshadow",
-      shade: "Emerald",
-      price: "$27",
+    Philippines: {
+      img: "images/UrbanDecay-Philippines-Eye Serum.jpg",
+      productName: "Eye Serum",
+      shade: "Brightening",
+      price: "$38",
     },
-    Sydney: {
-      img: "images/UrbanDecay of Sydney of blush.jpeg",
-      productName: "Blush",
-      shade: "Mauve",
-      price: "$20",
+    Vietnam: {
+      img: "images/UrbanDecay-Vietnam-Hand Cream.jpg",
+      productName: "Hand Cream",
+      shade: "Lavender",
+      price: "$16",
     },
   },
   Benefit: {
-    NewYork: {
-      img: "images/Benefit-newyork-lipstick.jpg",
-      productName: "Lipstick",
-      shade: "Pink",
+    Greece: {
+      img: "images/Benefit-Greece-Makeup Remover.jpg",
+      productName: "Makeup Remover",
+      shade: "Oil-Free",
       price: "$18",
     },
-    Paris: {
-      img: "images/benefit-paris-foundation.jpeg",
-      productName: "Foundation",
-      shade: "Ivory",
+    Portugal: {
+      img: "images/Benefit-Portugal-Nail Polish.jpg",
+      productName: "Nail Polish",
+      shade: "Coral",
+      price: "$10",
+    },
+    Switzerland: {
+      img: "images/Benefit-Switzerland-Sunscreen.jpg",
+      productName: "Sunscreen",
+      shade: "SPF 50",
+      price: "$28",
+    },
+    Austria: {
+      img: "images/Benefit-Austria-Face Wash.jpg",
+      productName: "Face Wash",
+      shade: "Tea Tree",
+      price: "$14",
+    },
+    Finland: {
+      img: "images/Benefit-Finland-Lip Plumper.jpg",
+      productName: "Lip Plumper",
+      shade: "Clear",
       price: "$22",
-    },
-    Tokyo: {
-      img: "images/benefit-tokyo-mascara.jpg",
-      productName: "Mascara",
-      shade: "Dark Brown",
-      price: "$16",
-    },
-    London: {
-      img: "images/benefit-london-eyeshadow.jpg",
-      productName: "Eyeshadow",
-      shade: "Gold",
-      price: "$24",
-    },
-    Sydney: {
-      img: "images/benefit-Sydney-blush.jpeg",
-      productName: "Blush",
-      shade: "Bubblegum",
-      price: "$18",
     },
   },
   TooFaced: {
-    NewYork: {
-      img: "images/TooFaced-NewYork-lipstick-caramel.jpg",
-      productName: "Lipstick",
-      shade: "Caramel",
-      price: "$19",
+    Chile: {
+      img: "images/TooFaced-Chile-Body Lotion.jpg",
+      productName: "Body Lotion",
+      shade: "Coconut",
+      price: "$18",
     },
-    Paris: {
-      img: "images/TooFaced-Paris-foundation-tan.jpg",
-      productName: "Foundation",
-      shade: "Tan",
-      price: "$25",
+    Peru: {
+      img: "images/footCream-peru.jpg",
+      productName: "Foot Cream",
+      shade: "Peppermint",
+      price: "$15",
     },
-    Tokyo: {
-      img: "images/TooFaced-Tokyo-mascara-blackest-black.jpeg",
-      productName: "Mascara",
-      shade: "Blackest Black",
-      price: "$21",
+    NewZealand: {
+      img: "images/shampoo-newzealand.jpg",
+      productName: "Shampoo",
+      shade: "Volumizing",
+      price: "$20",
     },
-    London: {
-      img: "images/TooFaced-London-eyeshadow-platinum.jpg",
-      productName: "Eyeshadow",
-      shade: "Platinum",
-      price: "$28",
-    },
-    Sydney: {
-      img: "images/TooFaced-Sydney-blush-papaya.jpg",
-      productName: "Blush",
-      shade: "Papaya",
+    Morocco: {
+      img: "images/conditioner-morocco.jpg",
+      productName: "Conditioner",
+      shade: "Nourishing",
       price: "$22",
+    },
+    Israel: {
+      img: "images/hairSerum-israel.jpg",
+      productName: "Hair Serum",
+      shade: "Argan Oil",
+      price: "$25",
     },
   },
   Tarte: {
-    NewYork: {
-      img: "images/Tarte-NewYork-lipstick-mahogany.jpg",
-      productName: "Lipstick",
-      shade: "Mahogany",
+    Ireland: {
+      img: "images/handSanitizer-ireland.jpg",
+      productName: "Hand Sanitizer",
+      shade: "Aloe Vera",
+      price: "$10",
+    },
+    Scotland: {
+      img: "images/lipPrimer-scotland.jpg",
+      productName: "Lip Primer",
+      shade: "Neutral",
+      price: "$12",
+    },
+    Wales: {
+      img: "images/hairSpray-wales.jpg",
+      productName: "Hair Spray",
+      shade: "Strong Hold",
+      price: "$18",
+    },
+    NorthernIreland: {
+      img: "images/hairMask-nireland.jpg",
+      productName: "Hair Mask",
+      shade: "Repairing",
       price: "$22",
     },
-    Paris: {
-      img: "images/Tarte-Paris-foundation-deep.jpg",
-      productName: "Foundation",
-      shade: "Deep",
-      price: "$28",
-    },
-    Tokyo: {
-      img: "images/Tarte-Tokyo-mascara-jet-black.jpeg",
-      productName: "Mascara",
-      shade: "Jet Black",
+    Iceland: {
+      img: "images/heatProtectant-iceland.jpg",
+      productName: "Heat Protectant",
+      shade: "Thermal",
       price: "$20",
-    },
-    London: {
-      img: "images/Tarte-London-eyeshadow-rose-gold.jpg",
-      productName: "Eyeshadow",
-      shade: "Rose Gold",
-      price: "$26",
-    },
-    Sydney: {
-      img: "images/Tarte-Sydney-blush-terracotta.jpg",
-      productName: "Blush",
-      shade: "Terracotta",
-      price: "$24",
     },
   },
   Smashbox: {
-    NewYork: {
-      img: "images/Smashbox-NewYork-lipstick-crimson.jpg",
-      productName: "Lipstick",
-      shade: "Crimson",
-      price: "$20",
-    },
-    Paris: {
-      img: "images/Smashbox-Paris-foundation-neutral.jpeg",
-      productName: "Foundation",
-      shade: "Neutral",
-      price: "$24",
-    },
-    Tokyo: {
-      img: "images/Smashbox-Tokyo-mascara-volumizer.jpg",
-      productName: "Mascara",
-      shade: "Volumizer",
-      price: "$22",
-    },
-    London: {
-      img: "images/Smashbox-London-eyeshadow-rose.jpg",
-      productName: "Eyeshadow",
-      shade: "Rose",
-      price: "$25",
-    },
-    Sydney: {
-      img: "images/Smashbox   Sydney blush.jpg",
-      productName: "Blush",
-      shade: "Sunset",
-      price: "$21",
-    },
-  },
-  Hourglass: {
-    NewYork: {
-      img: "images/Hourglass-NewYork-lipstick-rosewood.jpg",
-      productName: "Lipstick",
-      shade: "Rosewood",
-      price: "$26",
-    },
-    Paris: {
-      img: "images/Hourglass -Paris-foundation-powder.jpg",
-      productName: "Foundation",
-      shade: "Powder",
-      price: "$30",
-    },
-    Tokyo: {
-      img: "images/Hourglass  -Tokyo-mascara-bold.jpg",
-      productName: "Mascara",
-      shade: "Bold",
-      price: "$24",
-    },
-    London: {
-      img: "images/Hourglass-London-eyeshadow-ivory.jpg",
-      productName: "Eyeshadow",
-      shade: "Ivory",
-      price: "$28",
-    },
-    Sydney: {
-      img: "images/Hourglass-Sydney-blush-dusty-rose.jpeg",
-      productName: "Blush",
-      shade: "Dusty Rose",
-      price: "$25",
-    },
-  },
-  FentyBeauty: {
-    NewYork: {
-      img: "images/FentyBeauty-NewYork-lipstick-uncensored.jpg",
-      productName: "Lipstick",
-      shade: "Uncensored",
-      price: "$28",
-    },
-    Paris: {
-      img: "images/FentyBeauty-Paris-foundation-150.jpg",
-      productName: "Foundation",
-      shade: "150",
-      price: "$32",
-    },
-    Tokyo: {
-      img: "images/FentyBeauty-Tokyo-mascara-lengthening.jpg",
-      productName: "Mascara",
-      shade: "Lengthening",
-      price: "$26",
-    },
-    London: {
-      img: "images/FentyBeauty-London-eyeshadow-caramel.jpg",
-      productName: "Eyeshadow",
-      shade: "Caramel",
-      price: "$30",
-    },
-    Sydney: {
-      img: "images/FentyBeauty-Sydney-blush-ginger.jpeg",
-      productName: "Blush",
-      shade: "Ginger",
-      price: "$27",
-    },
-  },
-  LauraMercier: {
-    NewYork: {
-      img: "images/LauraMercier-NewYork-lipstick-sable.jpg",
-      productName: "Lipstick",
-      shade: "Sable",
-      price: "$23",
-    },
-    Paris: {
-      img: "foundation-honey.jfif",
-      productName: "Foundation",
-      shade: "Honey",
-      price: "$25",
-    },
-    Tokyo: {
-      img: "mascara-darkness.jfif",
-      productName: "Mascara",
-      shade: "Darkness",
-      price: "$22",
-    },
-    London: {
-      img: "eyeshadow-mocha.jfif",
-      productName: "Eyeshadow",
-      shade: "Mocha",
-      price: "$26",
-    },
-    Sydney: {
-      img: "blush-rosebud.jfif",
-      productName: "Blush",
-      shade: "Rosebud",
-      price: "$22",
-    },
-  },
-  NYX: {
-    NewYork: {
-      img: "lipstick-teddy.jfif",
-      productName: "Lipstick",
-      shade: "Teddy",
-      price: "$10",
-    },
-    Paris: {
-      img: "foundation-warm.jfif",
-      productName: "Foundation",
-      shade: "Warm",
-      price: "$14",
-    },
-    Tokyo: {
-      img: "mascara-length.jfif",
-      productName: "Mascara",
-      shade: "Length",
-      price: "$12",
-    },
-    London: {
-      img: "eyeshadow-plum.jfif",
-      productName: "Eyeshadow",
-      shade: "Plum",
+    Estonia: {
+      img: "images/hairGel-estonia.jpg",
+      productName: "Hair Gel",
+      shade: "Ultra Strong",
       price: "$15",
     },
-    Sydney: {
-      img: "blush-peachy.jfif",
-      productName: "Blush",
-      shade: "Peachy",
-      price: "$11",
+    Latvia: {
+      img: "images/hairMousse-latvia.jpg",
+      productName: "Hair Mousse",
+      shade: "Volume Boost",
+      price: "$18",
+    },
+    Lithuania: {
+      img: "images/bodyScrub-lithuania.jpg",
+      productName: "Body Scrub",
+      shade: "Exfoliating",
+      price: "$20",
+    },
+    Finland: {
+      img: "images/hairSpray-finland.jpg",
+      productName: "Hair Spray",
+      shade: "Hold & Shine",
+      price: "$12",
+    },
+    Sweden: {
+      img: "images/faceSerum-sweden.jpg",
+      productName: "Face Serum",
+      shade: "Hydrating",
+      price: "$25",
     },
   },
-  KatVonD: {
-    NewYork: {
-      img: "lipstick-vampire.jfif",
-      productName: "Lipstick",
-      shade: "Vampire",
-      price: "$24",
-    },
-    Paris: {
-      img: "foundation-fair.jfif",
-      productName: "Foundation",
-      shade: "Fair",
-      price: "$27",
-    },
-    Tokyo: {
-      img: "mascara-intense.jfif",
-      productName: "Mascara",
-      shade: "Intense",
+
+  AnastasiaBeverlyHills: {
+    Singapore: {
+      img: "images/eyebrowPencil-singapore.jpg",
+      productName: "Eyebrow Pencil",
+      shade: "Taupe",
       price: "$22",
     },
-    London: {
-      img: "eyeshadow-sapphire.jfif",
-      productName: "Eyeshadow",
-      shade: "Sapphire",
+    Malaysia: {
+      img: "images/contourPalette-malaysia.jpg",
+      productName: "Contour Palette",
+      shade: "Medium to Deep",
+      price: "$40",
+    },
+    Indonesia: {
+      img: "images/browGel-indonesia.jpg",
+      productName: "Brow Gel",
+      shade: "Clear",
+      price: "$24",
+    },
+    Philippines: {
+      img: "images/settingPowder-philippines.jpg",
+      productName: "Setting Powder",
+      shade: "Loose Translucent",
+      price: "$38",
+    },
+    Vietnam: {
+      img: "images/highlighterPalette-vietnam.jpg",
+      productName: "Highlighter Palette",
+      shade: "Glow Kit",
+      price: "$45",
+    },
+  },
+
+  FentyBeauty: {
+    SouthKorea: {
+      img: "images/bodyLava-southkorea.jpg",
+      productName: "Body Lava",
+      shade: "Who Needs Clothes?!",
+      price: "$59",
+    },
+    HongKong: {
+      img: "images/stunnaLipPaint-hongkong.jpg",
+      productName: "Stunna Lip Paint",
+      shade: "Uncensored",
+      price: "$25",
+    },
+    Taiwan: {
+      img: "images/foundation-taiwan.jpg",
+      productName: "Pro Filt'r Foundation",
+      shade: "Soft Matte",
+      price: "$35",
+    },
+    Thailand: {
+      img: "images/matchStix-thailand.jpg",
+      productName: "Match Stix",
+      shade: "Amber",
+      price: "$32",
+    },
+    Singapore: {
+      img: "images/cheeksOut-singapore.jpg",
+      productName: "Cheeks Out",
+      shade: "Petal Poppin",
+      price: "$22",
+    },
+  },
+
+  HudaBeauty: {
+    UAE: {
+      img: "images/lipContour-uae.jpg",
+      productName: "Lip Contour",
+      shade: "Trendsetter",
+      price: "$19",
+    },
+    SaudiArabia: {
+      img: "images/falseLashes-saudi.jpg",
+      productName: "False Lashes",
+      shade: "Samantha #7",
+      price: "$23",
+    },
+    Kuwait: {
+      img: "images/overachieverConcealer-kuwait.jpg",
+      productName: "Overachiever Concealer",
+      shade: "Granola",
+      price: "$30",
+    },
+    Qatar: {
+      img: "images/easyBakeLoosePowder-qatar.jpg",
+      productName: "Easy Bake Loose Powder",
+      shade: "Banana Bread",
+      price: "$34",
+    },
+    Bahrain: {
+      img: "images/roseGoldPalette-bahrain.jpg",
+      productName: "Rose Gold Palette",
+      shade: "Remastered",
+      price: "$65",
+    },
+  },
+
+  CharlotteTilbury: {
+    France: {
+      img: "images/magicCream-france.jpg",
+      productName: "Magic Cream",
+      shade: "Moisturizer",
+      price: "$100",
+    },
+    UK: {
+      img: "images/hollywoodFlawlessFilter-uk.jpg",
+      productName: "Hollywood Flawless Filter",
+      shade: "Light/Medium",
+      price: "$44",
+    },
+    Ireland: {
+      img: "images/airbrushFlawlessFoundation-ireland.jpg",
+      productName: "Airbrush Flawless Foundation",
+      shade: "Cool Beige",
+      price: "$44",
+    },
+    Australia: {
+      img: "images/pillowTalkLipstick-australia.jpg",
+      productName: "Pillow Talk Lipstick",
+      shade: "Original",
+      price: "$34",
+    },
+    NewZealand: {
+      img: "images/cheekToChicBlush-newzealand.jpg",
+      productName: "Cheek to Chic Blush",
+      shade: "Ecstasy",
+      price: "$40",
+    },
+  },
+
+  PatMcGrath: {
+    USA: {
+      img: "images/mothershipPalette-usa.jpg",
+      productName: "Mothership Palette",
+      shade: "Subliminal",
+      price: "$125",
+    },
+    Canada: {
+      img: "images/luxeTranceLipstick-canada.jpg",
+      productName: "LuxeTrance Lipstick",
+      shade: "Beautiful Stranger",
+      price: "$38",
+    },
+    UK: {
+      img: "images/skinFetishFoundation-uk.jpg",
+      productName: "Skin Fetish Foundation",
+      shade: "Light Medium",
+      price: "$68",
+    },
+    France: {
+      img: "images/permagelEyeliner-france.jpg",
+      productName: "Permagel Eyeliner",
+      shade: "Xtreme Black",
       price: "$28",
     },
-    Sydney: {
-      img: "images/blush.jpg",
-
-      productName: "Blush",
-      shade: "Rosewood",
-      price: "$24",
+    Italy: {
+      img: "images/metalmorphosisEyeshadow-italy.jpg",
+      productName: "Metalmorphosis Eyeshadow",
+      shade: "Gold",
+      price: "$25",
     },
   },
 };
-
-var brand = document.querySelector(".brand");
-var country = document.querySelector(".country");
-var cards = document.querySelector(".cards");
-
-brand.innerHTML += ` <option selected> Select Brand</option>`;
-country.innerHTML += ` <option selected> Select Country</option>`;
-
-for (var key in makeupProducts) {
-  brand.innerHTML += ` <option value="${key}">${key}</option>`;
-  for (var key1 in makeupProducts[key]) {
-    var obj = makeupProducts[key][key1];
-    cards.innerHTML += `<div class="card text-center g-5 col-12 col-md-6  mt-md-5 mt-sm-0" style="width: 18rem;">
-      <img src="${obj.img}" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">${obj.productName}</h5>
-        <p class="card-text">${obj.shade}</p>
-        <a href="#" class="btn btn-primary">${obj.price}</a>
-      </div>
-    </div>`;
-  }
-}
-function setCountry() {
-  for (var key1 in makeupProducts[key]) {
-    country.innerHTML += `<option value="${key1}">${key1}</option>`;
-    console.log(key1);
-  }
-}
