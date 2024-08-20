@@ -6,7 +6,7 @@ var makeupProducts = {
       shade: "Red",
       price: "$10",
     },
-    London: {
+    london: {
       img: "images/foundation.jpg",
       productName: "Foundation",
       shade: "Beige",
@@ -473,7 +473,8 @@ var makeupProducts = {
       price: "$28",
     },
     Sydney: {
-      img: "blush-rosewood.jfif",
+      img: "images/blush.jpg",
+
       productName: "Blush",
       shade: "Rosewood",
       price: "$24",
@@ -505,23 +506,6 @@ for (var key in makeupProducts) {
 function setCountry() {
   for (var key1 in makeupProducts[key]) {
     country.innerHTML += `<option value="${key1}">${key1}</option>`;
-  }
-}
-function searchCard() {
-  for (var key in makeupProducts) {
-    
-    for (var key1 in makeupProducts[key]) {
-      console.log(key1);
-      for (var key2 in makeupProducts[key][key1]) {
-        cards.innerHTML += `<div class="card text-center g-5 col-12 col-md-6  mt-md-5 mt-sm-0" style="width: 18rem;">
-        <img src="${key2}" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">${key2.productName}</h5>
-          <p class="card-text">${key2.shade}</p>
-          <a href="#" class="btn btn-primary">${obj.price}</a>
-        </div>
-      </div>`;
-      }
-    }
+    console.log(key1);
   }
 }
