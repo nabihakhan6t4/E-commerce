@@ -39,7 +39,7 @@ var makeupProducts = {
       price: "$13",
     },
     Spain: {
-      img: "images/LOreal-Germany-Brow Penci.jpgg",
+      img: "images/lOreal-Spain-Bronzer.jpg",
       productName: "Bronzer",
       shade: "Sun Kissed",
       price: "$21",
@@ -231,25 +231,25 @@ var makeupProducts = {
       price: "$18",
     },
     Peru: {
-      img: "images/footCream-peru.jpg",
+      img: "images/TooFaced-Peru-Foot Cream.jpg",
       productName: "Foot Cream",
       shade: "Peppermint",
       price: "$15",
     },
     NewZealand: {
-      img: "images/shampoo-newzealand.jpg",
+      img: "images/TooFaced-NewZealand-Shampoo.jpg",
       productName: "Shampoo",
       shade: "Volumizing",
       price: "$20",
     },
     Morocco: {
-      img: "images/conditioner-morocco.jpg",
+      img: "images/TooFaced-Morocco-Conditioner.jpg",
       productName: "Conditioner",
       shade: "Nourishing",
       price: "$22",
     },
     Israel: {
-      img: "images/hairSerum-israel.jpg",
+      img: "images/TooFaced-Israel-Hair Serum.jpg",
       productName: "Hair Serum",
       shade: "Argan Oil",
       price: "$25",
@@ -257,31 +257,31 @@ var makeupProducts = {
   },
   Tarte: {
     Ireland: {
-      img: "images/handSanitizer-ireland.jpg",
+      img: "images/Tarte-Ireland-Hand Sanitizer.jpg",
       productName: "Hand Sanitizer",
       shade: "Aloe Vera",
       price: "$10",
     },
     Scotland: {
-      img: "images/lipPrimer-scotland.jpg",
+      img: "images/Tarte-Scotland-Lip Primer.jpg",
       productName: "Lip Primer",
       shade: "Neutral",
       price: "$12",
     },
     Wales: {
-      img: "images/hairSpray-wales.jpg",
+      img: "images/Tarte-Wales-Hair Spray.jpg",
       productName: "Hair Spray",
       shade: "Strong Hold",
       price: "$18",
     },
     NorthernIreland: {
-      img: "images/hairMask-nireland.jpg",
+      img: "images/Tarte-NorthernIreland-Hair Mask.jpg",
       productName: "Hair Mask",
       shade: "Repairing",
       price: "$22",
     },
     Iceland: {
-      img: "images/heatProtectant-iceland.jpg",
+      img: "images/Tarte-Iceland-Heat Protectant.jpg",
       productName: "Heat Protectant",
       shade: "Thermal",
       price: "$20",
@@ -485,3 +485,79 @@ var makeupProducts = {
     },
   },
 };
+
+var brand = document.querySelector(".brand");
+var country = document.querySelector(".country");
+var cards = document.querySelector(".cards");
+var selectedCard = document.querySelector(".selectedCard"); // Define selectedCard globally
+
+// Populate brand dropdown
+brand.innerHTML = '<option value="" selected>Select Brand</option>';
+for (var key in makeupProducts) {
+  brand.innerHTML += `<option value="${key}">${key}</option>`;
+}
+
+// Populate country dropdown and cards section
+for (var key in makeupProducts) {
+  for (var key1 in makeupProducts[key]) {
+    var obj = makeupProducts[key][key1];
+    cards.innerHTML += `<div class="card text-center" style="width: 18rem;">
+      <img src="${obj.img}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">${obj.productName}</h5>
+        <p class="card-text">${obj.shade}</p>
+        <a href="#" class="btn btn-primary">${obj.price}</a>
+      </div>
+    </div>`;
+  }
+}
+
+// Function to set country options based on selected brand
+function setCountry() {
+  country.innerHTML = '<option value="">Select Country</option>';
+  var selectedBrand = brand.value;
+
+  for (var key in makeupProducts[selectedBrand]) {
+    country.innerHTML += `<option value="${key}">${key}</option>`;
+  }
+}
+
+// Function to search and display the selected card
+function searchCard() {
+  var selectedBrand = brand.value;
+  var selectedCountry = country.value;
+
+  // Hide all cards
+  var allCards = document.querySelectorAll(".cards .card");
+  for (var i = 0; i < allCards.length; i++) {
+    allCards[i].style.display = "none";
+  }
+
+  // Check if the brand and country are selected and valid
+  if (
+    selectedBrand &&
+    selectedCountry &&
+    makeupProducts[selectedBrand] &&
+    makeupProducts[selectedBrand][selectedCountry]
+  ) {
+    var userChoice = makeupProducts[selectedBrand][selectedCountry];
+    var selectedCardContent = `<div class="card text-center" style="width: 18rem;">
+      <img src="${userChoice.img}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">${userChoice.productName}</h5>
+        <p class="card-text">${userChoice.shade}</p>
+        <a href="#" class="btn btn-primary">${userChoice.price}</a>
+      </div>
+    </div>`;
+
+    // Display the selected card only
+    selectedCard.innerHTML = selectedCardContent;
+  } else {
+    selectedCard.innerHTML = "<p>Please select a valid brand and country.</p>";
+  }
+}
+
+function clearProduct(){
+  selectedCard.style.display = "none"
+  cards.classList.add('cards')
+}

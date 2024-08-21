@@ -24,28 +24,44 @@
   </head>
   <body>
     <!-- Product Section -->
-    <select
-      class="form-select brand p-3 container d-flex justify-content-center"
-      aria-label="Default select example"
-      onchange="setCountry()"
-    ></select>
-    <select
-      class="form-select p-3 container d-flex justify-content-center country"
-      aria-label="Default select example"
-    ></select>
-    <button
-      type="button"
-      class="btn-close "
-      aria-label="Close"
-      onclick="searchCard()"
-    >
-      Search
-    </button>
     <div
-      class="container-fluid d-flex justify-content-center align-items-center flex-wrap cards"
+      class="container m-auto d-flex justify-content-center align-items-center"
+    >
+      <select
+        class="form-select brand p-3 mb-3"
+        aria-label="Default select example"
+        onchange="setCountry()"
+      >
+        <option value="" selected>Select Brand</option>
+      </select>
+      <select
+        class="form-select p-3 mb-3 country"
+        aria-label="Default select example"
+      >
+        <option value="">Select Country</option>
+      </select>
+      <button
+        type="button"
+        class="btn btn-primary"
+        aria-label="Close"
+        onclick="searchCard()"
+      >
+        Search
+      </button>
+      <button
+      type="button"
+      class="btn btn-primary"
+      aria-label="Close"
+      onclick="clearProduct()"
+    >
+      Clear
+    </button>
+    </div>
+    <div
+      class="container-fluid  justify-content-center align-items-center flex-wrap cards"
     ></div>
     <div
-      class="container d-flex justify-content-center align-items-center flex-wrap selectedCard"
+      class="container  justify-content-center align-items-center flex-wrap selectedCard"
     ></div>
 
     <script src="script.js"></script>
