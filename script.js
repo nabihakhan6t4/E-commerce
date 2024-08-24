@@ -367,7 +367,7 @@ var makeupProducts = {
       price: "$25",
     },
     Taiwan: {
-      img: "images/foundation-taiwan.jpg",
+      img: "images/FentyBeauty-Taiwan-Pro Filt'r Foundation.jpg",
       productName: "Pro Filt'r Foundation",
       shade: "Soft Matte",
       price: "$35",
@@ -421,31 +421,31 @@ var makeupProducts = {
 
   CharlotteTilbury: {
     France: {
-      img: "images/magicCream-france.jpg",
+      img: "images/CharlotteTilbury-France-Magic Cream.jpg",
       productName: "Magic Cream",
       shade: "Moisturizer",
       price: "$100",
     },
     UK: {
-      img: "images/hollywoodFlawlessFilter-uk.jpg",
+      img: "images/CharlotteTilbury -UK-Hollywood Flawless Filter.jpg",
       productName: "Hollywood Flawless Filter",
       shade: "Light/Medium",
       price: "$44",
     },
     Ireland: {
-      img: "images/airbrushFlawlessFoundation-ireland.jpg",
+      img: "images/CharlotteTilbury-Ireland-Airbrush Flawless Foundation.jpg",
       productName: "Airbrush Flawless Foundation",
       shade: "Cool Beige",
       price: "$44",
     },
     Australia: {
-      img: "images/pillowTalkLipstick-australia.jpg",
+      img: "images/CharlotteTilbury-Australia-Pillow Talk Lipstick.jpg",
       productName: "Pillow Talk Lipstick",
       shade: "Original",
       price: "$34",
     },
     NewZealand: {
-      img: "images/cheekToChicBlush-newzealand.jpg",
+      img: "images/CharlotteTilbury -NewZealand-Cheek to Chic Blush.jpg",
       productName: "Cheek to Chic Blush",
       shade: "Ecstasy",
       price: "$40",
@@ -454,31 +454,31 @@ var makeupProducts = {
 
   PatMcGrath: {
     USA: {
-      img: "images/mothershipPalette-usa.jpg",
+      img: "images/PatMcGrath-USA-Mothership Palette.jpg",
       productName: "Mothership Palette",
       shade: "Subliminal",
       price: "$125",
     },
     Canada: {
-      img: "images/luxeTranceLipstick-canada.jpg",
+      img: "images/PatMcGrath-Canada-LuxeTrance Lipstick.jpg",
       productName: "LuxeTrance Lipstick",
       shade: "Beautiful Stranger",
       price: "$38",
     },
     UK: {
-      img: "images/skinFetishFoundation-uk.jpg",
+      img: "images/PatMcGrath-UK-Skin Fetish Foundation.jpg",
       productName: "Skin Fetish Foundation",
       shade: "Light Medium",
       price: "$68",
     },
     France: {
-      img: "images/permagelEyeliner-france.jpg",
+      img: "images/PatMcGrath-Permagel Eyeliner.jpg",
       productName: "Permagel Eyeliner",
       shade: "Xtreme Black",
       price: "$28",
     },
     Italy: {
-      img: "images/metalmorphosisEyeshadow-italy.jpg",
+      img: "images/Metalmorphosis Eyeshadow.jpg",
       productName: "Metalmorphosis Eyeshadow",
       shade: "Gold",
       price: "$25",
@@ -496,7 +496,7 @@ for (var key in makeupProducts) {
   for (var key1 in makeupProducts[key]) {
     console.log(key1);
     var obj = makeupProducts[key][key1];
-    cards.innerHTML += `<div class="card text-center col-12 col-md-4 " style="width: 18rem;">
+    cards.innerHTML += `<div class="card text-center col-12 col-md-4 mt-5" style="width: 18rem;">
   <img src="${obj.img}" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">${obj.productName}</h5>
@@ -520,7 +520,7 @@ function searchCard() {
   var userVal = makeupProducts[brand.value][country.value];
   console.log(userVal);
   cards.style.display = "none";
-  selectedCard.innerHTML = `<div class="card text-center" style="width: 18rem;">
+  selectedCard.innerHTML = `<div class="card text-center d-flex justify-content-center  m-auto" style="width: 18rem;">
   <img src="${userVal.img}" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">${userVal.productName}</h5>
@@ -530,7 +530,7 @@ function searchCard() {
 </div>`;
 }
 
-function clearProduct(){
+function clearProduct() {
   cards.style.display = "flex";
-  selectedCard.style.display = "none"
+  selectedCard.style.display = "none";
 }
