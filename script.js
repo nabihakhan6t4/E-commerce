@@ -534,3 +534,4 @@ function clearProduct() {
   cards.style.display = "flex";
   selectedCard.style.display = "none";
 }
+
